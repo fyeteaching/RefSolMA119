@@ -150,7 +150,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, borderline west={3pt}{0pt}{shadecolor}, interior hidden, sharp corners, boxrule=0pt, frame hidden, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, interior hidden, breakable, enhanced, sharp corners, borderline west={3pt}{0pt}{shadecolor}, frame hidden]}{\end{tcolorbox}}\fi
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -199,7 +199,7 @@
    |3x+2|=&5\\
    3x+2=5\quad\text{or}&\quad 3x+2=-5\\
    3x=3\quad\text{or}&\quad 3x=-7\\
-   x=\quad\text{or}&\quad x=-\frac73.
+   x=1\quad\text{or}&\quad x=-\frac73.
    \end{aligned}
    \]
 
@@ -245,7 +245,7 @@
 \item
   The graph has two \(x\)-intercepts \((-1, 0)\) and \((3,0)\) and one
   \(y\)-intercept \((0, 3)\). The graph between the two \(x\)-intercepts
-  is above the \(x\)-axis, equivlently, \(y>0\). So the \(y\)-value is
+  is above the \(x\)-axis, equivalently, \(y>0\). So the \(y\)-value is
   positive if \(x\) is in \((-1,3)\). The domain of the graph is
   \((-\infty, \infty)\) because any vertical line will intersect the
   graph. The range of the graph is \((-\infty, 4]\) because it has a
@@ -264,26 +264,30 @@
    \end{aligned}
    \] As \(x\leq 11\), \(x\) is on the left hand side of 11. That is 11
   is the right bound of the interval. There is no left bound so the
-  interval for \(x\le 11\) is \((-\infty, 11)\).
+  interval for \(x\le 11\) is \((-\infty, 11]\).
 \item
-  \[x^3y-8y=y(x^3-8)=y(x-2)(x^2+4x+4).\]
+  When factoring a binomial involving cubes, you may need the
+  sum/difference of cubes formula
+  \(A^3\pm B^3=(A\pm B)(A^2\mp AB+B^2)\).
+
+  \[x^3y-8y=y(x^3-8)=y(x-2)(x^2+2x+4).\]
 \item
   One way to solve a rational equation is to first clearing the
   denominator by multiplying the LCD. However, when using this method,
   after solving the resulting equation, the solutions must be checked
-  for possible extraneous soltuions. In this case, the LCD is
+  for possible extraneous solutions. In this case, the LCD is
   \((x-5)(x+1)=x^2-4x-5\). \[
    \begin{aligned}
    \frac{3x}{x-5}-\frac{2x}{x+1}=&-\frac{42}{x^2-4x-5}\\
    (x-5)(x+1)\cdot\frac{3x}{x-5}-(x-5)(x+1)\cdot\frac{2x}{x+1}=&(x-5)(x+1)\cdot\left(-\frac{42}{x^2-4x-5}\right)\\
    3x(x+1)-2x(x-5)=&-42\\
    3x^2+3x-2x^2+10x=&-42\\
-   x^2+13+42=&0\\
+   x^2+13x+42=&0\\
    (x+6)(x+7)=&0\\
    x+6=0\quad\text{or}&\quad x+7=0\\
    x=-6\quad\text{or}&\quad x=-7.
    \end{aligned}
-   \] Since the LCD is nozero for both \(x=-6\) and \(x=-7\), they are
+   \] Since the LCD is nonzero for both \(x=-6\) and \(x=-7\), they are
   not extraneous solutions.
 \item
   For a square root to be real, the radicand has to be nonnegative.
@@ -294,13 +298,13 @@
 \item
   Since \(-27=(-3)^3\), \((-27)^{\frac23}=((-3)^3)^{\frac23}=(-3)^2=9\).
 \item
-  Rational exponents have the same rules of interger exponents.
-  Moreover, \(x^{\frac mn}=\sqrt[n]{x^m}=(\sqrt[n]{x})^m\) given that
+  Rational exponents have the same rules of integer exponents. Moreover,
+  \(x^{\frac mn}=\sqrt[n]{x^m}=(\sqrt[n]{x})^m\) given that
   \(\sqrt[n]x\) is real. Then
 \end{enumerate}
 
 \[
-(-8x^6y^2)^{\frac13}=((-2)^3)^{\frac13}(x^6)^{\frac13}(y^2)^{\frac13}=(-2)^1x^2y^{\frac23}=-2x\sqrt[3]{y^2}.
+(-8x^6y^2)^{\frac13}=((-2)^3)^{\frac13}(x^6)^{\frac13}(y^2)^{\frac13}=(-2)^1x^2y^{\frac23}=-2x^2\sqrt[3]{y^2}.
 \]
 
 \begin{enumerate}
@@ -331,7 +335,7 @@
 \item
   Note that \(\mathbf{i}^2=-1\) and \((A\pm B)^2=A^2\pm 2AB+B^2\). Then
 
-  \[(3+4\mathbf{i})^2=3^2+2\cdot 3\cdot 4\mathbf{i}+4^2\mathbf{i}^2=9+12\mathbf{i}-4=5+12\mathbf{i}.\]
+  \[(3+4\mathbf{i})^2=3^2+2\cdot 3\cdot 4\mathbf{i}+4^2\mathbf{i}^2=9+24\mathbf{i}-16=-7+24\mathbf{i}.\]
 \item
   Recall \(\sqrt{-b}=\mathbf{i}\sqrt{b}\) if \(b>0\). Then \[
   \begin{aligned}
@@ -358,7 +362,7 @@
   x-4=0\quad\text{ or}&\quad x+44=0\\
   x=4\quad\text{ or}&\quad x=-44.
   \end{aligned}
-  \] Therefor, the width of the frame is \(4\) centimeters.
+  \] Therefore, the width of the frame is \(4\) centimeters.
 \item
   Suppose the positive number is \(x\). The sum of the number and twice
   of its square can be expressed as \(x+2x^2\). Then \(x\) satisfies the
@@ -369,15 +373,15 @@
 \item
   In the investment formula \(A=P(1+\frac{r}{n})^{nt}\), \(P\) is the
   initial investment, \(r\) is the annual interest rate, \(n\) is the
-  number of compoundings in a year, \(t\) is the number of years, and
+  number of compounding in a year, \(t\) is the number of years, and
   \(A\) is the balance after \(t\) years. In this case, \(P=20000\),
   \(r=5\%=0.05\), \(n=4\) since the interest is compounded quarterly,
   that is 4 times per year. Then the balance \(A\) after 4 years is
 
   \[A=20000\left(1+\frac{0.05}{4}\right)^{4\cdot 4}\approx 24397.79.\]
 \item
-  Recall \(\log_bx\) is is the number \(y\) such that \(b^y=x\), that
-  is, \(b^{\log_bx}=x\). To solve the equation, taking both sides as
+  Recall \(\log_bx\) is the number \(y\) such that \(b^y=x\), that is,
+  \(b^{\log_bx}=x\). To solve the equation, taking both sides as
   exponents of the base of the log implies
 \end{enumerate}
 
@@ -396,7 +400,7 @@ x=&16.
 \setcounter{enumi}{19}
 \item
   By the power rule of log, \(\log_b(M^p)=p\log_bM\). Applying \(\log\)
-  (or \(\ln\)) to an power will bring down the exponent. \[
+  (or \(\ln\)) to a power will bring down the exponent. \[
   \begin{aligned}
   3^x=&62\\
   \log(3^x)=&\log(62)\\
@@ -406,7 +410,7 @@ x=&16.
   \end{aligned}
   \]
 \item
-  To solve a logarithmic equation invovling more than one logarithms,
+  To solve a logarithmic equation involving more than one logarithms,
   the first step is to rewrite them into a single logarithm using rules
   of logarithms. \[
   \begin{aligned}
@@ -438,7 +442,7 @@ x=&16.
   \[f(2t)=(2t)^2-7\cdot (2t) + 4=4t^2-14t+4.\]
 \item
   The domain of a rational functions consists of all real numbers except
-  those that make the denomiantor zero. In this case, the solution
+  those that make the denominator zero. In this case, the solution
   \(x=\frac54\) of the equation \(5-4x=0\) should be removed. So the
   domain is \(x\neq\frac54\). In interval notation,
   \((-\infty, \frac54)\cup(\frac54,\infty)\).
@@ -447,8 +451,8 @@ x=&16.
   using multiplication/division and addition/subtraction. For example,
   to eliminate \(x\), multiplying the first equation by 3 and the second
   the equation by 4, then taking the sum yields
-  \(3(-2y)+4(-5y)=3\cdot 16+4\cdot 1\). Simplyfing and solving for \(y\)
-  implies \[
+  \(3(-2y)+4(-5y)=3\cdot 16+4\cdot 1\). Simplifying and solving for
+  \(y\) implies \[
   \begin{aligned}
   3(-2y)+4(-5y)=&3\cdot 16+4\cdot 1\\
   -26y=&52\\
@@ -501,7 +505,7 @@ x=&16.
   slope-intercept form and solve for \(x\) yields \(x=\frac72\). So the
   \(x\)-intercept is \(\left(\frac{7}{2},0\right)\).
 \item
-  Since the unkown \(b\) is in the denominator, to solve for \(b\), we
+  Since the unknown \(b\) is in the denominator, to solve for \(b\), we
   may first clearing denominators by multiplying the LCD \(abc\) to both
   sides and then simplify and solve. \[
   \begin{aligned}
@@ -528,9 +532,9 @@ x=&16.
   \]
 \item
   A complex rational expression is the quotient of a rational expression
-  by another rational expression. One way to simplify is to simplify
-  both the numerator and denominator and then convert the quotient into
-  an muliplication. \[
+  by another rational expression. One way to simplify it is to simplify
+  both the numerator and denominator first and then convert the quotient
+  into a multiplication. \[
   \begin{aligned}
   \frac{\frac1x-\frac1y}{1-\frac{x^2}{y^2}}
   =&\frac{\frac{y-x}{xy}}{\frac{y^2-x^2}{y^2}}\\
@@ -546,10 +550,10 @@ x=&16.
 
   \[f(24)=\sqrt[3]{3\cdot 24-8}=\sqrt[3]{64}=4.\]
 \item
-  If the denominator is a binomial invovling only square roots,
-  multiplying the conjugate will eliminate the square root signs from
-  the denominator by the difference of squares formula
-  \((A-B)(A+B)=A^2-B^2\). \[
+  If the denominator is a binomial involving only square roots,
+  multiplying both the numerator and the denominator by the conjugate
+  will eliminate the square root signs from the denominator using the
+  difference of squares formula \((A-B)(A+B)=A^2-B^2\). \[
   \begin{aligned}
   \frac{6}{3\sqrt{x}-2}=&\frac{6(3\sqrt{x}+2)}{(3\sqrt{x}-2)(3\sqrt{x}+2)}\\
   =&\frac{18\sqrt{x}+12}{(3\sqrt{x})^2-2^2}\\
@@ -579,15 +583,15 @@ x=&16.
   (\sqrt[3]{5+3x})^3=&(-4)^3\\
   5+3x=&-64\\
   3x=&-69\\
-  x=&-13.
+  x=&-23.
   \end{aligned}
   \]
 
-  \textbf{Check:} Plugging \(x=-13\) into the left hand side implies
-  \(\sqrt[3]{5+3\cdot(-13)}=\sqrt[3]{-64}=-4\) which equals the right
-  hand side. So \(x=-13\) is the solution of the equation.
+  \textbf{Check:} Plugging \(x=-23\) into the left hand side implies
+  \(\sqrt[3]{5+3\cdot(-23)}=\sqrt[3]{-64}=-4\) which equals the right
+  hand side. So \(x=-23\) is the solution of the equation.
 \item
-  Simplifying a quotient of two complex numbers is simliar to
+  Simplifying a quotient of two complex numbers is similar to
   rationalize a denominator. \[
   \begin{aligned}
   \frac{5\mathbf{i}}{-2+3\mathbf{i}}=&\frac{5\mathbf{i}(-2-3\mathbf{i})}{(-2+3\mathbf{i})(-2-3\mathbf{i})}\\
@@ -597,7 +601,7 @@ x=&16.
   \end{aligned}
   \]
 \item
-  The \(ax^2+bx+c=0\) can be completed into a square form
+  The \(ax^2+bx+c=0\) can be completed into the perfect square form
   \(a(x-h)^2+k=0\), where \(h=-\frac{b}{2a}\) and \(k=ah^2+bh+c\). In
   this case, since \(a=1\) and \(b=-6\), \(h=-\frac{-6}{2\cdot 1}=3\)
   and \(k=3^2-6\cdot 3+3=-6\). Therefore, \[
@@ -612,8 +616,8 @@ x=&16.
 \item
   Suppose the longer leg is \(x\) feet, the shorter leg is then \(x-4\)
   feet. By the Pythagorean theorem, that is, in a right triangle,
-  \(\text{leg}^2+\text{leg}^2=\text{hypotenuse}^2\), the unknown \(x\)
-  statisfies the following equation:
+  \(\text{leg}^2+\text{leg}^2=\text{hypotenuse}^2\). Then the unknown
+  \(x\) satisfies the following equation:
 
   \[x^2+(x-4)^2=7^2.\]
 
@@ -632,7 +636,7 @@ x=&16.
   shorter leg is approximately \(6.53-4=2.53\) feet.
 \item
   The \(x\)-intercepts have the \(y\)-coordinate \(0\). To get their
-  \(x\)-coordiantes, solve the equation \(-x^2+4x+5=0\). \[
+  \(x\)-coordinates, solve the equation \(-x^2+4x+5=0\). \[
   \begin{aligned}
   -x^2+4x+5=&0\\
   x^2-4x-5=&0\\
@@ -645,7 +649,7 @@ x=&16.
   The \(y\)-intercept is \((0, f(0))=(0, c)=(0, 5)\).
 
   The equation of the axis of symmetry is \(x=-\frac{b}{2a}\) Since
-  \(-\frac{b}{2a}=-\frac{4}{2\cdot(-1)}=2\), the axix of symmetry is
+  \(-\frac{b}{2a}=-\frac{4}{2\cdot(-1)}=2\), the axis of symmetry is
   \(x=2\).
 
   The vertex is the intersection of the axis of symmetry and the
@@ -679,9 +683,9 @@ x=&16.
   \] Since \(\log_4(-2)\) is undefined, only \(x=8\) is a solution.
 \item
   The statement that the balance is doubled means \(A=2P\). The years
-  \(t\) it takes to double the investment is then statisfies the
-  equation \(2P=P\left(1+\frac{r}{n}\right)^{nt}\). Dividing \(P\) from
-  both sides yields \(2=\left(1+\frac{r}{n}\right)^{nt}\). Since
+  \(t\) it takes to double the investment is then satisfies the equation
+  \(2P=P\left(1+\frac{r}{n}\right)^{nt}\). Dividing \(P\) from both
+  sides yields \(2=\left(1+\frac{r}{n}\right)^{nt}\). Since
   \(r=4.5\%=0.045\), \(n=2\), the equation becomes \[
   \begin{aligned}
   2=&\left(1+\frac{0.045}{2}\right)^{2t}\\
@@ -692,9 +696,9 @@ x=&16.
   \] So it takes approximately 15.58 years to double the balance if the
   interest rate is 4.5\% and compounded semiannually.
 \item
-  When adding/substracting rational expressions, the rational
-  expressions should be rewritten into equivalent expressions with the
-  LCD as the denominators. \[
+  When adding/subtracting rational expressions, the rational expressions
+  should be rewritten into equivalent expressions with the LCD as the
+  denominators. \[
   \begin{aligned}
   &\frac{4x-4}{x^2+2x-15}-\frac{3}{x+5}\\
   =&\frac{4x-4}{(x-3)(x+5)}-\frac{3(x-3)}{(x-3)(x+5)}\\
@@ -715,8 +719,8 @@ x=&16.
   \]
 \item
   In the equation that defines the function, we know that \(R=60000\).
-  Then \(x\) statisfies the equation \(60000=x(1000-4x)\). Solving the
-  equation yeilds \[
+  Then \(x\) satisfies the equation \(60000=x(1000-4x)\). Solving the
+  equation yields \[
   \begin{aligned}
   60000=&1000x-4x^2\\
   4x^2-1000x+60000=&0\\
@@ -728,7 +732,7 @@ x=&16.
   60000.
 \item
   When the value is \(20000\), the age \(x\) satisfies the equation
-  \(20000=40000(1.23)^{-0.4x}\). Solving the equation yeilds \[
+  \(20000=40000(1.23)^{-0.4x}\). Solving the equation yields \[
   \begin{aligned}
   20000=&40000(1.23)^{-0.4x}\\
   0.5=&(1.23)^{-0.4x}\\
@@ -750,7 +754,7 @@ x=&16.
 
   Suppose the person needed 1500 calories weighs \(x\) kilogram, then
   \(f(x)=1500\), that is \(70\cdot x^{3/4}=1500\). Solving the equation
-  yeilds \[
+  yields \[
   \begin{aligned}
   70\cdot x^{3/4}=&1500\\
   x^{3/4}=&\frac{150}{7}\\
