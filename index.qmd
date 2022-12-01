@@ -36,7 +36,7 @@ format:
       - \lhead{\mydate{\today}}
       - '\rhead{Reuse: \href{https://creativecommons.org/licenses/by-nc-sa/3.0/}{CC BY-NC-SA 3.0}}'
     keep-tex: true
-    latex-output-dir: _output/main.pdf
+    output-file: _output/main.pdf
 ---
 
 1. Applying negative exponent, product, quotient-to-power, product-to-power, and power-to-power rules implies 
