@@ -1,6 +1,10 @@
 ---
 title: "Reference Solutions for MA119 Final Review"
 author: "Dr. Ye"
+date: today
+date-format: "MMMM, YYYY"
+abstract: |
+  Those references solutions are for MA119 final review of QCC. A pdf version can be found at <https://fyemath.github.io/RefSolMA119/index.pdf>. Please let me know if you see any mistakes. Thank you!
 format: 
   html:
     # theme: pandoc
