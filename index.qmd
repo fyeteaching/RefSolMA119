@@ -19,7 +19,8 @@ format:
     license: CC BY-NC-SA 3.0
     comments:
       hypothesis: true
-    output-file: _output/index.html
+    output-dir: _output
+    output-file: index.html
   pdf: 
     documentclass: article
     classoption: [12pt]
@@ -36,7 +37,8 @@ format:
       - \lhead{\mydate{\today}}
       - '\rhead{Reuse: \href{https://creativecommons.org/licenses/by-nc-sa/3.0/}{CC BY-NC-SA 3.0}}'
     keep-tex: true
-    output-file: _output/main.pdf
+    latex-output-dir: _output
+    output-file: main.pdf
 ---
 
 1. Applying negative exponent, product, quotient-to-power, product-to-power, and power-to-power rules implies 
