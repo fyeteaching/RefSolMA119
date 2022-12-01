@@ -3,8 +3,7 @@ title: "Reference Solutions for MA119 Final Review"
 author: "Dr. Ye"
 date: today
 date-format: "MMMM, YYYY"
-abstract: |
-  Those references solutions are for MA119 final review of QCC. A pdf version can be found at <https://fyemath.github.io/RefSolMA119/index.pdf>. Please let me know if you see any mistakes. Thank you!
+abstract: "Those references solutions are for MA119 final review of QCC. A pdf version can be found at <https://fyemath.github.io/RefSolMA119/main.pdf>. Please let me know if you see any mistakes. Thank you!"
 format: 
   html:
     # theme: pandoc
@@ -29,13 +28,15 @@ format:
     fontfamily: libertinus
     colorlinks: true
     header-includes:
+      - \usepackage{datetime}
+      - \newdateformat{mydate}{\monthname[\THEMONTH], \THEYEAR}
       - \usepackage{fancyhdr}
       - \fancyhf{}
       - \pagestyle{fancy}
-      - \lhead{Spring 2022}
+      - \lhead{\mydate{\today}}
       - '\rhead{Reuse: \href{https://creativecommons.org/licenses/by-nc-sa/3.0/}{CC BY-NC-SA 3.0}}'
     keep-tex: true
-    latex-output-dir: _output
+    latex-output-dir: _output/main.pdf
 ---
 
 1. Applying negative exponent, product, quotient-to-power, product-to-power, and power-to-power rules implies 
