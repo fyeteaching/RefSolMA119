@@ -1,11 +1,7 @@
 ---
-title: "Reference Solutions for MA119 Final Review"
-author: "Dr. Ye"
-date: today
-date-format: "MMMM, YYYY"
-abstract: "Those references solutions are for MA119 final review of QCC. A pdf version can be found at <https://fyemath.github.io/RefSolMA119/main.pdf>. Please let me know if you see any mistakes. Thank you!"
 format: 
   html:
+    abstract: "Those references solutions are for MA119 final review of QCC. A pdf version can be found at <https://fyemath.github.io/RefSolMA119/main.pdf>. Please let me know if you see any mistakes. Thank you!"
     # theme: pandoc
     header-includes: |
       <style>@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap');</style>
@@ -19,9 +15,9 @@ format:
     license: CC BY-NC-SA 3.0
     comments:
       hypothesis: true
-    output-dir: _output
     output-file: index.html
-  pdf: 
+  pdf:
+    abstract: "Those references solutions are for MA119 final review of QCC. A html version can be found at <https://fyemath.github.io/RefSolMA119/index.html>. Please let me know if you see any mistakes. Thank you!" 
     documentclass: article
     classoption: [12pt]
     geometry:
@@ -37,8 +33,8 @@ format:
       - \lhead{\mydate{\today}}
       - '\rhead{Reuse: \href{https://creativecommons.org/licenses/by-nc-sa/3.0/}{CC BY-NC-SA 3.0}}'
     keep-tex: true
-    latex-output-dir: _output
     output-file: main.pdf
+    latex-clean: true
 ---
 
 1. Applying negative exponent, product, quotient-to-power, product-to-power, and power-to-power rules implies 
