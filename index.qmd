@@ -412,7 +412,7 @@ $$
 
     To sketch the graph, plot the intercepts, the vertex, graph the axis of symmetry and connect the points smoothly so that the graph is symmetric with respect to the axis of symmetry.
 
-    ![Graph of $y=-x^2+4x+5](parabola.png)
+    ![Graph of $y=-x^2+4x+5$](parabola.png){fig-align="center", fig.pos="h", fig-width="80%"}
 
 39. Since $x=5.5$, the value of $V$ is
     $$
@@ -457,7 +457,7 @@ $$
     \end{aligned}
     $$
 
-43. The division of rational expression can be rewritten as a product.
+43. The division of rational expressions can be rewritten as a product.
     $$
     \begin{aligned}
     &\frac{x^2-x-12}{2x+8}\div\frac{2x^2+5x-3}{8x-4}\\
