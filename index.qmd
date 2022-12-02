@@ -412,7 +412,7 @@ $$
 
     To sketch the graph, plot the intercepts, the vertex, graph the axis of symmetry and connect the points smoothly so that the graph is symmetric with respect to the axis of symmetry.
 
-    ![Graph of $y=-x^2+4x+5$](parabola.png){fig-align="center", fig.pos="h", fig-width="80%"}
+    ![Graph of $y=-x^2+4x+5$](parabola.png){fig-align="center"}
 
 39. Since $x=5.5$, the value of $V$ is
     $$
