@@ -412,6 +412,8 @@ $$
 
     To sketch the graph, plot the intercepts, the vertex, graph the axis of symmetry and connect the points smoothly so that the graph is symmetric with respect to the axis of symmetry.
 
+    ![Graph of $y=-x^2+4x+5](parabola.png)
+
 39. Since $x=5.5$, the value of $V$ is
     $$
     V=35000\cdot (3.21)^{-0.05\cdot 5.5}\approx 25396.81.
