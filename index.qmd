@@ -1,12 +1,10 @@
 ---
 format: 
   html:
-    abstract: "Those references solutions are for MA119 final review of QCC. A pdf version can be found at <https://fyemath.github.io/RefSolMA119/main.pdf>. Please let me know if you see any mistakes. Thank you!"
+    abstract: "Those references solutions are for MA119 final review of QCC. A pdf version can be found at <https://fyeteaching.github.io/RefSolMA119/main.pdf>. Please let me know if you see any mistakes. Thank you!"
     # theme: pandoc
     header-includes: |
       <style>@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap');</style>
-      <link rel="stylesheet" href="https://unpkg.com/latex.css/style.min.css" />
-      <style> body{max-width: 120ch;} </style>
     mainfont: Nunito
     backgroundcolor: '#daffef'
     self-contained: true
@@ -18,7 +16,7 @@ format:
       hypothesis: true
     output-file: index.html
   pdf:
-    abstract: "Those references solutions are for MA119 final review of QCC. A html version can be found at <https://fyemath.github.io/RefSolMA119/index.html>. Please let me know if you see any mistakes. Thank you!" 
+    abstract: "Those references solutions are for MA119 final review of QCC. A html version can be found at <https://fyeteaching.github.io/RefSolMA119/index.html>. Please let me know if you see any mistakes. Thank you!" 
     documentclass: article
     classoption: [12pt]
     geometry:
