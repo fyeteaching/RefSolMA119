@@ -84,6 +84,7 @@ format:
     =&(6x-5)(2y-3).
     \end{aligned}
     $$
+
     2.  
 
     $$
@@ -111,51 +112,50 @@ format:
 8. When factoring a binomial involving cubes, you may need the sum/difference of cubes formula $A^3\pm B^3=(A\pm B)(A^2\mp AB+B^2)$.
     $$x^3y-8y=y(x^3-8)=y(x-2)(x^2+2x+4).$$
 
-9. One way to solve a rational equation is to first clearing the denominator by multiplying the LCD. However, when using this method, after solving the resulting equation, the solutions must be checked for possible extraneous solutions. In this case, the LCD is $(x-5)(x+1)=x^2-4x-5$.
+9. As the variable appears in the denominators, and fractions undefined if the denominator is zero, the restrictions on $x$ is $x \neq 0$ **AND** $x^2 + 3x - 10 \neq 0$. Since $x^2 + 3 x - 10 = (x - 2)(x + 5)$. The restriction is equivalent to $x\neq 2$ and $x\neq -5$. Given the restriction, one way to solve the rational equation is to first clearing the denominator by multiplying the LCD. Due to the restrictions, after solving the resulting equation, the solutions must be checked. In this case, the LCD is $x^2 + 3 x - 10 = (x - 2)(x + 5)$.
     $$
     \begin{aligned}
-    \frac{3x}{x-5}-\frac{2x}{x+1}=&-\frac{42}{x^2-4x-5}\\
-    (x-5)(x+1)\cdot\frac{3x}{x-5}-(x-5)(x+1)\cdot\frac{2x}{x+1}=&(x-5)(x+1)\cdot\left(-\frac{42}{x^2-4x-5}\right)\\
-    3x(x+1)-2x(x-5)=&-42\\
-    3x^2+3x-2x^2+10x=&-42\\
-    x^2+13x+42=&0\\
-    (x+6)(x+7)=&0\\
-    x+6=0\quad\text{or}&\quad x+7=0\\
-    x=-6\quad\text{or}&\quad x=-7.
+    \frac{2}{x - 2}-\frac{14}{x^2 + 3x - 10}=&1\\
+    (x - 2)(x + 5)\cdot \frac{2}{x - 2} - (x^2 + 3 x - 10)\cdot\frac{14}{x^2 + 3x - 10} = & x^2 + 3 x - 10\\
+    2(x + 5) - 14 =& x^2 + 3 x - 10\\
+    2x - 4 = & x^2 + 3 x - 10\\
+    x^2 + x - 6 =&0\\
+    (x - 2)(x + 3)=&0\\
+    x - 2=0\quad\text{or}&\quad x + 3=0\\
+    x = 2\quad\text{or}&\quad x = -3.
     \end{aligned}
     $$
-    Since the LCD is nonzero for both $x=-6$ and $x=-7$, they are not extraneous solutions.
+    Since the LCD is zero for $x=2$ and nonzero for $x = -3$, only $x = -3$ is a solution.
 
 10. For a square root to be real, the radicand has to be nonnegative. Therefore, the domain of the function $f(x)=\sqrt{-4-2x}$ is the solution set of the inequality $-4-2x\ge 0$. Solving this linear inequality implies $x\le -2$. In interval notation, the domain is $(-\infty, -2]$.
 
 11. Since $-27=(-3)^3$, $(-27)^{\frac23}=((-3)^3)^{\frac23}=(-3)^2=9$.
 
 12. Rational exponents have the same rules of integer exponents. Moreover, $x^{\frac mn}=\sqrt[n]{x^m}=(\sqrt[n]{x})^m$ given that $\sqrt[n]x$ is real. Then
-$$
-(-8x^6y^2)^{\frac13}=((-2)^3)^{\frac13}(x^6)^{\frac13}(y^2)^{\frac13}=(-2)^1x^2y^{\frac23}=-2x^2\sqrt[3]{y^2}.
-$$
+    $$
+    (-8x^6y^2)^{\frac13}=((-2)^3)^{\frac13}(x^6)^{\frac13}(y^2)^{\frac13}=(-2)^1x^2y^{\frac23}=-2x^2\sqrt[3]{y^2}.
+    $$
 
-13. Solving a radical equation is similar to solving an absolute value equation or an exponential equation. The radical expression should be isolated first. Then the functional transformation, taking power of both sides, and be applied. But be careful, not all functional transformations are equivalent transformations.
+13.  Solving a radical equation is similar to solving an absolute value equation or an exponential equation. A radical expression should be isolated first. Then a functional transformation, taking power of both sides, can be applied. But be careful, not all functional transformations are equivalent transformations.
     $$
     \begin{aligned}
-    \sqrt{x+2}+4=&x\\
-    \sqrt{x+2}=&x-4\\
-    (\sqrt{x+2})^2=&(x-4)^2\\
-    x+2=&x^2-2\cdot 4\cdot x+4^2\\
-    x^2-8x+16=&x+2\\
-    x^2-9x+14=&0\\
-    (x-2)(x-7)=&0\\
-    x-2=0\quad\text{or}&\quad x-7=0\\
-    x=2\quad\text{or}&\quad x=7.
+    \sqrt{2 x - 1} + 2 = & x\\
+    \sqrt{2 x - 1} = & x - 2\\
+    (\sqrt{2 x - 1})^2 = & (x - 2)^2\\
+    2 x - 1 = & x^2 -2\cdot 2\cdot x + 2^2\\
+    x^2 - 6x + 5 = & 0\\
+    (x - 1)(x - 5)=&0\\
+    x - 1 = 0\quad\text{or}&\quad x - 5 = 0\\
+    x = 1\quad\text{or}&\quad x = 5.
     \end{aligned}
     $$
-    **Check:** when $x=2$, the left hand side is $\sqrt{2+2}+4=\sqrt{4}+4=2+4=6$ which does not equal the right hand side. So $x=2$ is not a solution.
-    When $x=7$, the left hand side is $\sqrt{7+2}+4=\sqrt{9}+4=3+4=7$ which equals the right hand side. So $x=7$ is a solution. 
+    **Check:** when $x=2$, the left-hand side is $\sqrt{2 \cdot 1  - 1 } + 2= 1 + 2 = 3$ while the right-hand side is 1. So $x = 1$ is not a solution.
+    When $x = 5$, the left-hand side is $\sqrt{2 \cdot 5 - 1} + 2 = \sqrt{9} + 2 = 3 + 2 = 5$ which equals the right-hand side x=5. So $x=5$ is a solution. 
 
-14. Note that $\mathbf{i}^2=-1$ and $(A\pm B)^2=A^2\pm 2AB+B^2$. Then
+14.  Note that $\mathbf{i}^2=-1$ and $(A\pm B)^2=A^2\pm 2AB+B^2$. Then
     $$(3+4\mathbf{i})^2=3^2+2\cdot 3\cdot 4\mathbf{i}+4^2\mathbf{i}^2=9+24\mathbf{i}-16=-7+24\mathbf{i}.$$
 
-15. Recall $\sqrt{-b}=\mathbf{i}\sqrt{b}$ if $b>0$. Then
+15.  Recall $\sqrt{-b}=\mathbf{i}\sqrt{b}$ if $b>0$. Then
     $$
     \begin{aligned}
     (x-7)^2=&-16\\
@@ -166,7 +166,7 @@ $$
     \end{aligned}
     $$
 
-16. Suppose the width of the frame is $x$ centimeters, then the dimension of the combined area is $2x+50$ centimeters by $2x+30$ centimeters and $x$ satisfies the equation
+16.  Suppose the width of the frame is $x$ centimeters, then the dimension of the combined area is $2x+50$ centimeters by $2x+30$ centimeters and $x$ satisfies the equation
     $$(2x+50)(2x+30)=2204.$$
     Solving this equation implies
     $$
@@ -181,24 +181,24 @@ $$
     $$
     Therefore, the width of the frame is $4$ centimeters.
 
-17. Suppose the positive number is $x$. The sum of the number and twice of its square can be expressed as $x+2x^2$. Then $x$ satisfies the equation $x+2x^2=11.88$ which can be re-written as $2x^2+x-11.88=0$. Solving by the quadratic formula yields
+17.  Suppose the positive number is $x$. The sum of the number and twice of its square can be expressed as $x+2x^2$. Then $x$ satisfies the equation $x+2x^2=11.88$ which can be re-written as $2x^2+x-11.88=0$. Solving by the quadratic formula yields
     $$x=\frac{-1+\sqrt{1^2-4\cdot 2\cdot (-11.88)}}{2\cdot 2}=2.2.$$
 
-18. In the investment formula $A=P(1+\frac{r}{n})^{nt}$, $P$ is the initial investment, $r$ is the annual interest rate, $n$ is the number of compounding in a year, $t$ is the number of years, and $A$ is the balance after $t$ years. In this case, $P=20000$, $r=5\%=0.05$, $n=4$ since the interest is compounded quarterly, that is 4 times per year. Then the balance $A$ after 4 years is
+18.  In the investment formula $A=P(1+\frac{r}{n})^{nt}$, $P$ is the initial investment, $r$ is the annual interest rate, $n$ is the number of compounding in a year, $t$ is the number of years, and $A$ is the balance after $t$ years. In this case, $P=20000$, $r=5\%=0.05$, $n=4$ since the interest is compounded quarterly, that is 4 times per year. Then the balance $A$ after 4 years is
     $$A=20000\left(1+\frac{0.05}{4}\right)^{4\cdot 4}\approx 24397.79.$$
 
-19. Recall $\log_bx$ is the number $y$ such that $b^y=x$, that is, $b^{\log_bx}=x$. To solve the equation, taking both sides as exponents of the base of the log implies
-$$
-\begin{aligned}
-\log_8x=&\frac43\\
-8^{\log_8x}=&8^{\frac43}\\
-x=&(2^3)^{\frac43}\\
-x=&2^4\\
-x=&16.
-\end{aligned}
-$$
+19.  Recall $\log_bx$ is the number $y$ such that $b^y=x$, that is, $b^{\log_bx}=x$. To solve the equation, taking both sides as exponents of the base of the log implies
+    $$
+    \begin{aligned}
+    \log_8x=&\frac43\\
+    8^{\log_8x}=&8^{\frac43}\\
+    x=&(2^3)^{\frac43}\\
+    x=&2^4\\
+    x=&16.
+    \end{aligned}
+    $$
 
-20. By the power rule of log, $\log_b(M^p)=p\log_bM$. Applying $\log$ (or $\ln$) to a power will bring down the exponent.
+20.  By the power rule of log, $\log_b(M^p)=p\log_bM$. Applying $\log$ (or $\ln$) to a power will bring down the exponent.
     $$
     \begin{aligned}
     3^x=&62\\
